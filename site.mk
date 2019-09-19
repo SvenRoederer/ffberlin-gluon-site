@@ -6,11 +6,9 @@
 #		depending on the combination of features listed
 
 GLUON_FEATURES := \
-	mesh-batman-adv-15 \
-	respondd \
-	status-page \
-	web-advanced \
-	web-wizard
+	freifunk-berlin-ui \
+	freifunk-berlin-defaults \
+	freifunk-berlin-utils
 
 
 ##	GLUON_SITE_PACKAGES
@@ -19,7 +17,8 @@ GLUON_FEATURES := \
 #		selection that would be enabled by default or due to the
 #		chosen feature flags
 
-GLUON_SITE_PACKAGES := haveged iwinfo
+GLUON_SITE_PACKAGES := iwinfo luci-mod-admin-full luci-theme-bootstrap luci-app-ffwizard-berlin luci-mod-freifunk
+#luci-lib-ipkg
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
