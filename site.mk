@@ -20,7 +20,10 @@ GLUON_FEATURES := \
 #		selection that would be enabled by default or due to the
 #		chosen feature flags
 
-GLUON_SITE_PACKAGES := iwinfo luci-mod-admin-full luci-theme-bootstrap luci-app-ffwizard-berlin luci-mod-freifunk
+GLUON_SITE_PACKAGES := \
+	-hostapd-mini \
+	-ppp -ppp-mod-pppoe \
+	iwinfo luci-mod-admin-full luci-theme-bootstrap luci-app-ffwizard-berlin luci-mod-freifunk
 
 #PKG_REV = $(strip $(shell \
 #			set -- $$(git log -1 --format="%ct %h" --abbrev=7); \
