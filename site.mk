@@ -22,8 +22,8 @@ GLUON_FEATURES := \
 
 GLUON_SITE_PACKAGES := \
 	-hostapd-mini \
-	-ppp -ppp-mod-pppoe \
-	iwinfo luci-mod-admin-full luci-theme-bootstrap luci-app-ffwizard-berlin luci-mod-freifunk
+	-ppp -ppp-mod-pppoe
+#	iwinfo luci-mod-admin-full luci-theme-bootstrap luci-app-ffwizard-berlin luci-mod-freifunk
 
 
 GLUON_EXTRA_PACKAGES := \
