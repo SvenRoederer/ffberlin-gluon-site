@@ -5,13 +5,13 @@
 #		Gluon will automatically enable a set of packages
 #		depending on the combination of features listed
 
-GLUON_FEATURES := \
-	freifunk-berlin-ui \
-	freifunk-berlin-defaults \
-	freifunk-berlin-utils \
-	freifunk-berlin-statistics-collectd \
-	freifunk-berlin-mesh-olsr \
-	freifunk-berlin-owm
+#GLUON_FEATURES := \
+#	freifunk-berlin-ui \
+#	freifunk-berlin-defaults \
+#	freifunk-berlin-utils \
+#	freifunk-berlin-statistics-collectd \
+#	freifunk-berlin-mesh-olsr \
+#	freifunk-berlin-owm
 
 
 ##	GLUON_SITE_PACKAGES
