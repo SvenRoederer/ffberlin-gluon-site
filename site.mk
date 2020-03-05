@@ -25,8 +25,11 @@ GLUON_SITE_PACKAGES := \
 	-ppp -ppp-mod-pppoe
 #	iwinfo luci-mod-admin-full luci-theme-bootstrap luci-app-ffwizard-berlin luci-mod-freifunk
 
+EXTRA_KERNEL_PACKAGES := \
+kmod-usb-acm kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-rndis
 
 GLUON_EXTRA_PACKAGES := \
+$(EXTRA_KERNEL_PACKAGES) \
 alfred \
 batctl-default \
 collectd collectd-mod-conntrack collectd-mod-cpu collectd-mod-exec collectd-mod-interface \
