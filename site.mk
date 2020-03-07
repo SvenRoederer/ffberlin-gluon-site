@@ -5,13 +5,16 @@
 #		Gluon will automatically enable a set of packages
 #		depending on the combination of features listed
 
-#GLUON_FEATURES := \
-#	freifunk-berlin-ui \
-#	freifunk-berlin-defaults \
-#	freifunk-berlin-utils \
-#	freifunk-berlin-statistics-collectd \
-#	freifunk-berlin-mesh-olsr \
-#	freifunk-berlin-owm
+GLUON_FEATURES := \
+	freifunk-berlin-defaults \
+	freifunk-berlin-ui \
+	freifunk-berlin-wizard \
+	freifunk-berlin-utils \
+	freifunk-berlin-statistics-collectd \
+	freifunk-berlin-mesh-olsr \
+	freifunk-berlin-batman \
+	freifunk-berlin-owm
+
 
 
 ##	GLUON_SITE_PACKAGES
@@ -28,6 +31,7 @@ GLUON_SITE_PACKAGES := \
 EXTRA_KERNEL_PACKAGES := \
 kmod-usb-acm kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-rndis
 
+
 GLUON_EXTRA_PACKAGES := \
 $(EXTRA_KERNEL_PACKAGES) \
 alfred \
@@ -38,9 +42,7 @@ collectd-mod-olsrd collectd-mod-ping collectd-mod-routeros collectd-mod-rrdtool 
 collectd-mod-uptime collectd-mod-wireless collectd-snmp-templates \
 community-profiles \
 ethtool \
-freifunk-berlin-dhcp-defaults freifunk-berlin-firewall-defaults freifunk-berlin-freifunk-defaults \
-freifunk-berlin-lib-guard freifunk-berlin-migration freifunk-berlin-network-defaults \
-freifunk-berlin-olsrd-defaults freifunk-berlin-system-defaults freifunk-berlin-statistics-defaults \
+freifunk-berlin-migration \
 freifunk-berlin-tunneldigger freifunk-berlin-uhttpd-defaults freifunk-berlin-uplink-notunnel-files \
 freifunk-berlin-uplink-tunnelberlin-tunneldigger \
 freifunk-common freifunk-firewall freifunk-gwcheck freifunk-policyrouting \
