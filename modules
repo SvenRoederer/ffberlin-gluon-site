@@ -1,13 +1,4 @@
-GLUON_SITE_FEEDS='luci freifunk ffberlin'
+GLUON_SITE_FEEDS='ffpotsdam'
 
-PACKAGES_LUCI_REPO=https://github.com/openwrt/luci.git
-PACKAGES_LUCI_COMMIT=13dd17fca148965d38f0d4e578b19679a7c4daa2
-PACKAGES_LUCI_BRANCH=openwrt-19.07
-
-PACKAGES_FREIFUNK_REPO=https://github.com/freifunk/openwrt-packages.git
-PACKAGES_FREIFUNK_COMMIT=73454e6fe1bdc902c69ca0079d979fdb94d6fb1f
-PACKAGES_FREIFUNK_BRANCH=openwrt-19.07
-
-PACKAGES_FFBERLIN_REPO=https://github.com/freifunk-berlin/firmware-packages.git
-PACKAGES_FFBERLIN_COMMIT=88c57fafe24b465e02c2fa341c207a7df8e80952
-PACKAGES_FFBERLIN_BRANCH=for_gluon
+PACKAGES_FFPOTSDAM_REPO=https://github.com/Freifunk-Potsdam/firmware-packages.git
+PACKAGES_FFPOTSDAM_COMMIT=d379099ffd9b6c81cce1e7f63cda05aee1e4b96d
